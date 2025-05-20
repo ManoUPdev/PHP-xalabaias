@@ -2,13 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name = "viewpoint">
-    <title>xablau</title>      
-    <body>
-        <p>
-
-        </p>
-    </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do servidor</title>
 </head>
+<body>
+    <h1>Dados do servidor</h1>
+    <?php 
+    phpinfo();          
+    ?>
+    
+</body>
 </html>
